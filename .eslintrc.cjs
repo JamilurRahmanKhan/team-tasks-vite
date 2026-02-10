@@ -6,7 +6,7 @@ module.exports = tseslint.config(
     files: ["**/*.{ts,tsx}"],
     languageOptions: {
       ecmaVersion: 2022,
-      sourceType: "module"
+      sourceType: "module",
     },
     plugins: {
       // typescript-eslint provides recommended configs + rules
@@ -16,14 +16,14 @@ module.exports = tseslint.config(
       "plugin:react/recommended",
       "plugin:react-hooks/recommended",
       "plugin:import/recommended",
-      "prettier"
+      "prettier",
     ],
     settings: {
-      react: { version: "detect" }
+      react: { version: "detect" },
     },
     rules: {
       "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }]
-    }
+      "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    },
   }
 );
