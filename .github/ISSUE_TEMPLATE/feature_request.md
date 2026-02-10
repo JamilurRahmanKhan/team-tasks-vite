@@ -6,8 +6,11 @@ labels: ["feature"]
 ---
 
 ## Problem
+
 ## Proposal
+
 ## Acceptance criteria
+
 - [ ]
 - [ ]
 - [ ]
